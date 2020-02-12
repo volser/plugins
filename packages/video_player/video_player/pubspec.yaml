@@ -1,4 +1,4 @@
-name: video_player
+name: iptv_video_player
 description: Flutter plugin for displaying inline video with other Flutter
   widgets on Android and iOS.
 version: 0.10.7
@@ -16,7 +16,7 @@ flutter:
         default_package: video_player_web
 
 dependencies:
-  meta: "^1.0.5"
+  meta: '^1.0.5'
   video_player_platform_interface: ^1.0.1
   # The design on https://flutter.dev/go/federated-plugins was to leave
   # this constraint as "any". We cannot do it right now as it fails pub publish
@@ -33,5 +33,5 @@ dev_dependencies:
     sdk: flutter
 
 environment:
-  sdk: ">=2.0.0-dev.28.0 <3.0.0"
-  flutter: ">=1.12.13+hotfix.4 <2.0.0"
+  sdk: '>=2.0.0-dev.28.0 <3.0.0'
+  flutter: '>=1.12.13+hotfix.4 <2.0.0'
