@@ -1,7 +1,7 @@
 name: iptv_video_player
 description: Flutter plugin for displaying inline video with other Flutter
   widgets on Android and iOS.
-version: 0.10.7-a.8
+version: 0.10.7-a.9
 homepage: https://github.com/flutter/plugins/tree/master/packages/video_player/video_player
 
 flutter:

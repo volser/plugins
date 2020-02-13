@@ -50,7 +50,7 @@ android {
         implementation "com.google.android.exoplayer:exoplayer-hls:$exoPlayerVersion"
         implementation "com.google.android.exoplayer:exoplayer-dash:$exoPlayerVersion"
         implementation "com.google.android.exoplayer:exoplayer-smoothstreaming:$exoPlayerVersion"
-        implementation "volser.exoplayer:extension-ffmpeg:$exoPlayerVersion-a.2"
+        implementation "volser.exoplayer:extension-ffmpeg:$exoPlayerVersion-a.1"
     }
 }
 
