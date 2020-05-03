@@ -146,7 +146,7 @@ final class VideoPlayer {
         return new HlsMediaSource.Factory(mediaDataSourceFactory).createMediaSource(uri);
       case C.TYPE_OTHER:
         return new ProgressiveMediaSource.Factory(mediaDataSourceFactory, new DefaultExtractorsFactory()
-                .setTsExtractorFlags(FLAG_ALLOW_NON_IDR_KEYFRAMES | FLAG_DETECT_ACCESS_UNITS)
+                .setTsExtractorFlags(FLAG_DETECT_ACCESS_UNITS)
                 )
             .createMediaSource(uri);
       default:
